@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href=paper.css>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+  <title>Arnold Ho | Let's learn together</title>
+</head>
+<body>
+
+<!--
+I am building my website now, let's break this down to a few smaller components:
+1. let's complete building my html script for the index file, this should include:
+	- An overview of who am I
+  - Things I'd like to work on
+  - A navbar that connects people to other pages
+    * my side projects (toys I'm building)
+    * open source contributions
+	- A footer that links to everywhere that connects me
+2. Let's style the page with flexbox and font awesome
+-->
+
+<div class="sm3 col padding-left-large">
+  <nav class="border fixed split-nav">
+    <div class="nav-brand">
+      <h3><a href="#">Arnold Ho</a></h3>
+    </div>
+    <div class="collapsible">
+      <input id="collapsible1" type="checkbox" name="collapsible1">
+      <label for="collapsible1">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </label>
+      <div class="collapsible-body">
+        <ul class="inline">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Contact Me</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <content>
+    <div class="sm3 col-margin sm3 col padding-left-large alert alert-success">
+      <h1>Overview</h1>
+    </div>
+    <div class="row">
+      <div class="col-8 col">
+        <p>I am a #codenewbie transitioning into the world of software engineering, my goal right now is to build cool stuff and figure out my groove through different side projects, including this site you're reading! I am currently trying to learn more about Vanilla Javascript before moving into more popular frameworks (such as React and friends). I am joining the <a href=lewagon.com>Le Wagon London Web development bootcamp</a> in October 2021, the bootcamp will cover front-end development with a heavy focus on Ruby on Rails. I also make <a href=https://dev.to/_arnoldho>my public notes</a> here on my DEV blog to share any tips and tricks that I find useful throughout my learning journey. Do hop along and join me on my journey to learn and grow together!</p>
+
+        <h3 class="alert alert-warning">A list of goals in the future <br> (not exhaustive, progressively harder):</h3>
+        <ul>
+          <li><del>Make a personal site</del></li>
+          <li>Making a pomodoro timer</li>
+          <li>Cloning web apps like:</li>
+          <ul>
+            <li>Linktree</li>
+            <li>Netflix</li>
+          </ul>
+          <li>Contribute to a public framework on GitHub with Good FirstTime Issues</li>
+          <li>Do a talk</li>
+            <ul>
+              <li>Online</li>
+              <li>At a local meetup</li>
+              <li>At a reputable conference</li>
+            </ul>
+        </ul>
+
+        <p>Hopefully I will be able to cross off some of these goals soon!</p>
+
+      </div>
+
+      <div class="col-4 col">
+        <img src=images/me.jpeg alt="a picture of me in front of a friendly cow">
+      </div>
+
+    </div>
+  </content>
+</div>
+
+<footer>
+
+  <div class="container alert alert-secondary">
+    <h5 align="center">I can be found here:</h5>
+    <div class="row flex-spaces">
+      <div class="col-4 col footerlink" align="center">
+        <a href="https://dev.to/_arnoldho"><i class="fab fa-dev"></i></a>
+      </div>
+      <div class="col-4 col footerlink" align="center">
+        <a href="https://twitter.com/_Arnoldho"><i class="fab fa-twitter"></i></a>
+      </div>
+      <div class="col-4 col footerlink" align="center">
+        <a href="https://github.com/arnoldboy123"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+
+</html>
