@@ -1,120 +1,61 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="./css/paper.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
-  <title>Arnold Ho | Let's learn together</title>
-</head>
-<body>
+---
+layout: default
+---
 
-<!--
-Things to add in the future
-- Maybe I can add a 'Heros' tab to give a shoutout to people who are my heros?
--->
+<content>
+  <br>
 
-<div class="sm3 col padding-left-large">
-  <nav class="border fixed split-nav">
-    <div class="nav-brand">
-      <h3><a href="./index.html">Arnold Ho</a></h3>
+  <div class="row flex-spaces tabs">
+    <input id="tab1" type="radio" name="tabs" checked>
+    <label for="tab1">Who am I</label>
+
+    <input id="tab2" type="radio" name="tabs">
+    <label for="tab2">Skills and tools</label>
+
+    <input id="tab3" type="radio" name="tabs">
+    <label for="tab3">What am I doing now (coding wise)</label>
+
+    <div class="content" id="content1">
+      <p>I am a #codenewbie based in London, currently transitioning into the field of software engineering through a coding bootcamp. </p>
+      <p>Prior to this, I was an <a href=https://www.youtube.com/watch?v=U_Pa5GXRgLc&t=194s&ab_channel=ArnoldHo>actuarial analyst</a> in the insurance industry. </p>
+      <p>Basically my job was to make sure that Insurance companies have enough money set aside to pay their customers if <em>touch wood</em> something bad happens. </p>
+      <p>I chanced upon this idea of a coding bootcamp through talking to a friend during a casual friday night dinner. </p>
+      <p>Before that I have always thought that I need to do a 3 years CS degree in order to become hirable as a software engineer. </p>
+      <p>Knowing that I am able to be a <em>functional</em> software engineer through the bootcamp route with much less time opened me to many paths I have not thought to be possible before.</p>
     </div>
-    <div class="collapsible">
-      <input id="collapsible1" type="checkbox" name="collapsible1">
-      <label for="collapsible1">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
-      </label>
-      <div class="collapsible-body">
-        <ul class="inline">
-          <li><a href="./about.html">About</a></li>
-          <li><a href="./project.html">Projects</a></li>
-          <li><a href="./contactme.html">Contact Me</a></li>
+    <div class="content" id="content2">
+      <p>Skills I am comfortable with</p>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Git and GitHub</li>
+          <li>Basic Javascript</li>
+          <li>Markdown</li>
         </ul>
-      </div>
+      <p>Skills I will get from the bootcamp</p>
+        <ul>
+          <li>Ruby on Rails</li>
+          <li>React.JS</li>
+          <li>Intermediate Javascript</li>
+        </ul>
+      <p>Skills and tools I want to work on</p>
+        <ul>
+          <li>Jekyll</li>
+        </ul>
     </div>
-  </nav>
-
-  <content>
-    <br>
-
-    <div class="row flex-spaces tabs">
-      <input id="tab1" type="radio" name="tabs" checked>
-      <label for="tab1">Who am I</label>
-
-      <input id="tab2" type="radio" name="tabs">
-      <label for="tab2">Skills and tools</label>
-
-      <input id="tab3" type="radio" name="tabs">
-      <label for="tab3">What am I doing now (coding wise)</label>
-
-      <div class="content" id="content1">
-        <p>I am a #codenewbie based in London, currently transitioning into the field of software engineering through a coding bootcamp. </p>
-        <p>Prior to this, I was an <a href=https://www.youtube.com/watch?v=U_Pa5GXRgLc&t=194s&ab_channel=ArnoldHo>actuarial analyst</a> in the insurance industry. </p>
-        <p>Basically my job was to make sure that Insurance companies have enough money set aside to pay their customers if <em>touch wood</em> something bad happens. </p>
-        <p>I chanced upon this idea of a coding bootcamp through talking to a friend during a casual friday night dinner. </p>
-        <p>Before that I have always thought that I need to do a 3 years CS degree in order to become hirable as a software engineer. </p>
-        <p>Knowing that I am able to be a <em>functional</em> software engineer through the bootcamp route with much less time opened me to many paths I have not thought to be possible before.</p>
-      </div>
-      <div class="content" id="content2">
-        <p>Skills I am comfortable with</p>
+    <div class="content" id="content3">
+      <p>
+        I am currently:
+        <ul>
+          <li>Brushing up my Vanilla JS ( no framework, pure JS ) with <a href="https://javascript30.com/">Javascript 30</a></li>
+          <li>Learning Open Source contribution workflow through contributing to <a href="https://www.firsttimersonly.com/">good first time issues</a></li>
+          <li>Getting my fundamentals <em>strong</em> through resources such as
           <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Git and GitHub</li>
-            <li>Basic Javascript</li>
-            <li>Markdown</li>
+            <li>The <a href="https://www.codenewbie.org/basecs">Base CS</a> podcast</li>
+            <li>The <a href="https://www.youtube.com/c/MissingSemester">MIT missing semester</a></li>
           </ul>
-        <p>Skills I will get from the bootcamp</p>
-          <ul>
-            <li>Ruby on Rails</li>
-            <li>React.JS</li>
-            <li>Intermediate Javascript</li>
-          </ul>
-        <p>Skills and tools I want to work on</p>
-          <ul>
-            <li>Jekyll</li>
-          </ul>
-      </div>
-      <div class="content" id="content3">
-        <p>
-          I am currently:
-          <ul>
-            <li>Brushing up my Vanilla JS ( no framework, pure JS ) with <a href="https://javascript30.com/">Javascript 30</a></li>
-            <li>Learning Open Source contribution workflow through contributing to <a href="https://www.firsttimersonly.com/">good first time issues</a></li>
-            <li>Getting my fundamentals <em>strong</em> through resources such as
-            <ul>
-              <li>The <a href="https://www.codenewbie.org/basecs">Base CS</a> podcast</li>
-              <li>The <a href="https://www.youtube.com/c/MissingSemester">MIT missing semester</a></li>
-            </ul>
-          </ul>
-        </p>
-      </div>
-    </div>
-  </content>
-</div>
-
-<footer>
-
-  <div class="container alert alert-secondary">
-    <h5 class="text-center">I can be found here:</h5>
-    <div class="row flex-spaces">
-      <div class="col-4 col footerlink text-center">
-        <a href="https://dev.to/_arnoldho"><i class="fab fa-dev"></i></a>
-      </div>
-      <div class="col-4 col footerlink text-center">
-        <a href="https://twitter.com/_Arnoldho"><i class="fab fa-twitter"></i></a>
-      </div>
-      <div class="col-4 col footerlink text-center">
-        <a href="https://github.com/arnoldboy123"><i class="fab fa-github"></i></a>
-      </div>
+        </ul>
+      </p>
     </div>
   </div>
-
-</footer>
-
-</body>
-
-</html>
+</content>
