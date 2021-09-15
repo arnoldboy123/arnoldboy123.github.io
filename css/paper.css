@@ -1156,6 +1156,10 @@ table.table-alternating tbody tr:nth-of-type(even) {
   color: #82807c;
 }
 
+footer a {
+  background-image: none;
+}
+
 /* Utilities */
 .border {
   border-color: #41403e;
